@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body, body * {
+    margin : 0;
+    padding : 0;
+}
+
+/* #wrap {
+    width : 100%;
+} */
+
+header {
+/*  background-color: #ef9a9a; */
+    width : 100%;
+    height : 100px;
+/* border:solid 1px #0000ff; */
+}
+
+
+#side1 {
+   /*background-color: red;*/ 
+    width : 20%;
+    height : 780px;
+    float : left;
+}
+
+#side2 {
+ /*   background-color: blue; */
+    width : 20%;
+    height : 780px;
+    float : left;
+}
+
+#form{
+/*	background-color: RED;*/	 
+	width : 60%;
+    height : 780px;
+    float : left;
+}
+
+footer {
+    background-color: #e6e6e6;
+    width : 100%;
+    height : 200px;
+    clear: both;
+    text-align: center;
+}
+
+#login{
+	margin : 150px;
+}
+
+#title{
+	font-weight: bold;
+}
+input[type=text], input[type=password] {
+	margin-top: 7px; 
+	width: 383px; 
+	height: 33px; 
+	border-radius: 5px; 
+	border-style: solid; 
+	border-color: gray;
+	border-width: 1px;
+}
+
+input[type=submit]{
+	background-color: #3d3d3d; 
+	border-style: solid; 
+	border-width: 0px; 
+	color: white; 
+	width: 383px; 
+	height: 35px;
+    font-size: 1.1em; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+input[type=button]{
+	background-color: #bfbfbf; 
+	border-style: solid; 
+	border-width: 0px; 
+	color: black; 
+	width: 383px; 
+	height: 35px;
+    font-size: 1.1em; 
+    margin-top: 10px;
+    border-radius: 5px;
+}

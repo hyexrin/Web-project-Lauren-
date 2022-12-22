@@ -1,0 +1,112 @@
+@charset "UTF-8";
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:12px;
+    color:#444444;
+    background-color:white;
+    /* border:solid 1px #0000ff; */
+}
+ul {
+    list-style-type:none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color:#444444;
+}
+
+.clear {
+    clear:both;
+}
+/* ---------- 헤더 ------------- */
+header #top {
+    width:100%;
+    margin:0 auto;
+/* border:solid 1px #0000ff; */
+}
+#logo {
+    float:left;
+    width: 160px;
+    height: auto;
+    /* margin-bottom: 30px; */
+    padding-top: 10px;
+/* border:solid 1px #000000; */
+
+}
+
+/* 상단 메뉴 */
+header #top_menu {
+    float:right;
+    margin-right: 5%;
+    margin-top:45px;
+/* border:solid 1px #000000; */
+}
+header #top_menu a:link {
+    font-size:15px;
+    color:#000000;
+}
+header #top_menu a:visited {
+    font-size:15px;
+    color:#000000;
+}
+header #top_menu a:hover {
+    font-size:15px;
+    color:#A4A4A4;
+}
+header #top_menu a:active {
+    font-size:15px;
+    color:#000000;
+}
+header #top_menu li.green a:link {
+    color:#000000;
+}
+header #top_menu li.green a:visited {
+    color:#000000;
+}
+header #top_menu li.green a:hover {
+    color:#A4A4A4;
+}
+header #top_menu li.green a:active {
+    color: #000000  ;
+}
+header #top_menu li {
+    display:inline;
+    margin-left:15px;
+}
+/* 메인 메뉴 */
+header #main_menu {
+    height:38px;
+    /* margin-top:20px; */
+/* border:solid 1px #0000ff; */
+}
+
+header #main_menu ul {
+    display: inline-block;
+    width:100%;
+    margin:auto;
+/* border:solid 1px #ff0000; */
+    margin-left: 5%;
+    float: left;
+    /* padding-top:12px; */
+    /* text-align:center; */
+}
+header #main_menu li {
+    display:inline;
+    margin:0 25px;
+    font-size:17px;
+}
+header #main_menu a:link {
+    color:#000000;
+}
+header #main_menu a:visited {
+    color:#000000;
+}
+header #main_menu a:hover {
+    color:#A4A4A4;
+}
+header #main_menu a:active {
+    color:#000000;
+}

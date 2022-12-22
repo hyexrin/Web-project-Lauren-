@@ -1,0 +1,41 @@
+@charset "EUC-KR";
+
+#pro_insert{
+/*	background-color: orange;*/
+	width: 60%;
+	height: 1080px;
+	float: left;
+}
+
+#side1 {
+   /*background-color: pink;*/
+    width : 20%;
+    height : 1080px;
+    float : left;
+}
+
+#side2 {
+ /*  background-color: red;*/
+    width : 20%;
+    height : 1080px;
+    float : left;
+}
+
+td {
+	width: 400px;
+	height: 50px;
+	font-size: xx-small;
+}
+
+#insert {
+	/*background-color: black;*/
+	margin-top: 100px;
+}
+
+#btn{
+	width: 200px;
+	height: 25px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	border-style: none;
+}

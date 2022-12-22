@@ -1,0 +1,14 @@
+@charset "EUC-KR";
+
+
+#product{
+	margin : 100px 120px;
+}
+
+#list {
+	/*background-color: #e6e6e6;*/
+	display: inline-block;
+	margin: 15px 3px;
+	padding: 5px;
+}
+

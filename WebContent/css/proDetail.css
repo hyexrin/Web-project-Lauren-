@@ -1,0 +1,13 @@
+@charset "EUC-KR";
+
+table {
+	font-size: xx-small;
+}
+
+#btn{
+	width: 200px;
+	height: 25px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	border-style: none;
+}

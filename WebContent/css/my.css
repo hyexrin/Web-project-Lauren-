@@ -1,0 +1,25 @@
+@charset "EUC-KR";
+#main{
+	padding-top: 60px;
+}
+
+input[type=button]{
+	background-color: #dfdfdf; 
+	border-style: solid; 
+	border-width: 0px; 
+	color: white; 
+	width: 150px; 
+	height: 50px;
+    font-size: 1.1em; 
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+#myBox{
+/*	background-color: #bfbfbf;*/
+	margin: 10px 0px 50px 0px;
+}
+
+#ad{
+	margin-bottom: 30px;
+}

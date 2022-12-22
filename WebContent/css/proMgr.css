@@ -1,0 +1,37 @@
+@charset "EUC-KR";
+
+#pro_list{
+/*	background-color: yellow;*/
+	width: 100%;
+	height: auto;
+	float: left;
+}
+td{
+	width: 1100px;
+	padding: 5px;
+}
+table{
+	font-size: x-small;
+}
+
+#list {
+/*	background-color: skyblue;*/
+	margin: 100px 0px;
+}
+
+#upBtn {
+	background-color: black;
+	color: white;
+}
+
+.btn{
+	background-color: #3d3d3d; 
+	border-style: solid; 
+	border-width: 0px; 
+	color: white; 
+	width: 100px; 
+	height: 30px;
+    font-size: 1.1em; 
+    margin-top: 10px;
+    border-radius: 5px;
+}

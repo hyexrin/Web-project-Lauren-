@@ -1,0 +1,39 @@
+@charset "UTF-8";
+#container{
+	margin-top: 7px; 
+    font-size : 15px;
+    
+}
+
+input[type=text] {
+	margin-top: 7px; 
+	width: 700px; 
+	height: 33px; 
+	border-radius: 5px; 
+	border-style: solid; 
+	border-color: gray;
+	border-width: 1px;
+}
+
+textarea{
+	width: 700px; 
+	border-radius: 5px; 
+	border-style: solid; 
+	border-color: gray;
+	border-width: 1px;
+}
+
+
+input[type=submit]{
+	background-color: #3d3d3d; 
+	border-style: solid; 
+	border-width: 0px; 
+	color: white; 
+	width: 200px; 
+	height: 35px;
+    font-size: 1.1em; 
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px; 
+   
+}
